@@ -322,6 +322,6 @@ class UUID {
         };
     }
 
-    private static overwrittenUUID;
+    private static Empty = UUID.parse("00000000-0000-0000-0000-000000000000");
 }
 
